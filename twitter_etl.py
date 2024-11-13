@@ -9,3 +9,5 @@ print(data[data['author']=='katyperry'].head(10))
 
 
 
+
+
