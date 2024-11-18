@@ -84,5 +84,3 @@ def run_twitter_etl():
 run_twitter_etl()
 
 
-
-
