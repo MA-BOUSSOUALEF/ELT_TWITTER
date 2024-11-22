@@ -77,10 +77,10 @@ def run_twitter_etl():
       twitter_list.append(refid_twet)
 
     new_data = pd.DataFrame(twitter_list)
-    new_data.to_csv('s3://boussoialef-airflow-twitter-bucket/refined_tweets.csv')
+    new_data.to_csv('s3://boussoialef-airflow-twitter-buckett/refined_tweets.csv')
     # filtered_data = new_data[new_data['country'].notna()]
     # print(filtered_data[['author', 'country']])
 
-run_twitter_etl()
+#run_twitter_etl()
 
 
