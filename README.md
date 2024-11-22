@@ -59,8 +59,8 @@ Enfin, **Apache Airflow** est utilisé pour orchestrer l'ensemble des étapes du
 
 1. **Cloner le dépôt**
    ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone git@github.com:MA-BOUSSOUALEF/ELT_TWITTER.git
+   
 ## This is API
 <img width="604" alt="csvToAPi" src="https://github.com/user-attachments/assets/1307a446-e58a-43c9-b266-03d776719c4b">
 
