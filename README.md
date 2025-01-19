@@ -3,7 +3,9 @@
 Ce projet implémente un pipeline de données en utilisant **Python 3**, **Apache Airflow**, et **AWS**. Il vise à extraire, transformer et charger des données Twitter issues d'un fichier CSV Kaggle, puis à les servir via une API locale.
 
 ---
- 
+ ## Airflow
+<img width="937" alt="twitter" src="https://github.com/user-attachments/assets/22062687-16d2-422e-9061-c935276f0643">
+
 ## **Contexte**
 
 Twitter a retiré la majorité des données accessibles via son API, rendant l'accès direct impossible pour certaines données publiques. Pour contourner cela, un fichier CSV contenant des données Twitter a été récupéré depuis [Kaggle](https://www.kaggle.com/). Ces données ont ensuite été :
@@ -64,5 +66,4 @@ Enfin, **Apache Airflow** est utilisé pour orchestrer l'ensemble des étapes du
 ## This is API
 <img width="604" alt="csvToAPi" src="https://github.com/user-attachments/assets/1307a446-e58a-43c9-b266-03d776719c4b">
 
-## This is Airflow
-<img width="937" alt="twitter" src="https://github.com/user-attachments/assets/22062687-16d2-422e-9061-c935276f0643">
+
