@@ -1,4 +1,6 @@
+
 # **Twitter Data Pipeline Project**
+![image](https://github.com/user-attachments/assets/31c3b72d-c97b-4d16-84da-b65c854b35dd)
 
 Ce projet implémente un pipeline de données en utilisant **Python 3**, **Apache Airflow**, et **AWS**. Il vise à extraire, transformer et charger des données Twitter issues d'un fichier CSV Kaggle, puis à les servir via une API locale.
 
